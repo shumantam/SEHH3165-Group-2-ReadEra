@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/toolbar_search"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="Item"
+        app:showAsAction="always" />
+    <group>
+        <item
+            android:id="@+id/menu_OpenSingleFile"
+            android:title="Open single file" />
+        <item
+            android:id="@+id/menu_ClearList"
+            android:title="Clear list" />
+        <item
+            android:id="@+id/menu_SortBy"
+            android:title="Sort by">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/sortBy_Name"
+                        android:title="Name" />
+                    <item
+                        android:id="@+id/sortBy_FileName"
+                        android:title="File name" />
+                    <item
+                        android:id="@+id/sortBy_FileFormat"
+                        android:title="File format" />
+                    <item
+                        android:id="@+id/sortBy_FileSize"
+                        android:title="File size" />
+                    <item
+                        android:id="@+id/sortBy_ModifiedTime"
+                        android:title="Modified time" />
+                    <item
+                        android:id="@+id/sortBy_ReadTime"
+                        android:checked="true"
+                        android:title="Read time" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu_Filter"
+            android:title="Filter" />
+        <item
+            android:id="@+id/menu_ShareTheReader"
+            android:title="Share the reader" />
+    </group>
+</menu>

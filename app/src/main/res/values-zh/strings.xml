@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReadEra</string>
+    <string name="reading_now">正在閲讀</string>
+    <string name="books_and_documents">書籍與文件</string>
+    <string name="favorites">最愛</string>
+    <string name="to_read">待讀</string>
+    <string name="have_read">已讀</string>
+    <string name="collections">收藏</string>
+    <string name="trash">垃圾桶</string>
+    <string name="settings">設定</string>
+</resources>

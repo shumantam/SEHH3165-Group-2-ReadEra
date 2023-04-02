@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">ReadEra</string>
+    <string name="reading_now">Reading Now</string>
+    <string name="books_and_documents">Books &amp; documents</string>
+    <string name="favorites">Favorites</string>
+    <string name="to_read">To Read</string>
+    <string name="have_read">Have Read</string>
+    <string name="collections">Collections</string>
+    <string name="trash">Trash</string>
+    <string name="settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>

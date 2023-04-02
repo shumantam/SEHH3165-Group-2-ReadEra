@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/drawer_ReadEra"
+        android:enabled="false"
+        android:icon="@drawable/logo_readera"
+        android:title="@string/app_name" />
+    <group>
+        <item
+            android:id="@+id/drawer_ReadingNow"
+            android:icon="@drawable/icon_reading_now"
+            android:title="@string/reading_now" />
+        <item
+            android:id="@+id/drawer_Favorites"
+            android:icon="@drawable/icon_favorites"
+            android:title="@string/favorites" />
+        <item
+            android:id="@+id/drawer_BooksAndDocuments"
+            android:icon="@drawable/icon_books_and_documents"
+            android:title="@string/books_and_documents" />
+        <item
+            android:id="@+id/drawer_ToRead"
+            android:icon="@drawable/icon_to_read"
+            android:title="@string/to_read" />
+        <item
+            android:id="@+id/drawer_HaveRead"
+            android:icon="@drawable/icon_have_read"
+            android:title="@string/have_read" />
+        <item
+            android:id="@+id/drawer_Collections"
+            android:icon="@drawable/icon_collections"
+            android:title="@string/collections" />
+        <item
+            android:id="@+id/drawer_Trash"
+            android:icon="@drawable/icon_trash"
+            android:title="@string/trash" />
+        <item
+            android:id="@+id/drawer_Settings"
+            android:icon="@drawable/icon_settings"
+            android:title="@string/settings" />
+    </group>
+</menu>
